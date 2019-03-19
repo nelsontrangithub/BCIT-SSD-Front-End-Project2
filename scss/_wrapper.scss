@@ -1,0 +1,5 @@
+.wrapper {
+    max-width: $site-width;
+    background-color: $white;
+    @include center;
+}

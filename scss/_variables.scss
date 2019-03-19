@@ -1,0 +1,63 @@
+// Variables
+
+// Site Colours
+$bg-lightgray: #EEE;
+$black: #050007;
+$white: white;
+$red: #e01a4f;
+$blue: #53b3cb;
+$gray: #e7e7e7;
+$dark-gray: #686868;
+$bcit-navy: rgb(8, 113, 187);
+
+// Text Colors
+$text-dark: $black;
+$text-light: $white;
+$text-med: #454545;
+
+// Fonts
+$body-font: 'Open Sans', sans-serif;
+$heading-font: 'Archivo Black', sans-serif;
+$heading-font-narrow: "Roboto Condensed", Arial, sans-serif;
+
+// Layout variables
+$border-radius: 8;
+$site-width: 1200px;
+$padding: rem(30);
+$title-height: rem(120);
+$title-height-mobile: rem(90);
+$gutter: 2; // essentially 2%
+$line-height: 1.4;
+
+// Columns
+
+$one-col: 100%;
+$two-col: colWidth(2);
+$three-col: colWidth(3);
+$four-col: colWidth(4);
+$five-col: colWidth(5);
+$six-col: colWidth(6);
+
+// Utility variables
+$link-hover-selector: '&:hover, &:focus, &:active';
+
+// Breakpoints
+$tablet-landscape: em(1024);
+$tablet-landscape-medium: em(860);
+$tablet-portait: em(768);
+$tablet-portrait-medium: em(720);
+$phone-wide: em(580);
+$phone: em(480);
+
+// Function to
+// Convert Px to Ems
+@function em($px, $bc: 16){
+    @return #{$px/$bc}em; 
+}
+
+// Media Query Breakpoints
+$desktopMedium: em(1250);
+$tabletLandscape: em(1024);
+$tabletPortrait: em(850);
+$phoneLandscape: em(670);
+$phonePortrait: em(420);

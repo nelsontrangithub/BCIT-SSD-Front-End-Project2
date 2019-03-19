@@ -1,0 +1,29 @@
+// Typography Styles
+body {
+    font-family: $body-font;
+    line-height: $line-height;
+}
+
+h1, h2, h3 {
+    font-family: $heading-font;
+}
+
+section h1 {
+    border-left: 10px solid $red;
+    padding-left: 5px;
+    font-size: rem(24);
+}
+
+section h2 {
+    border-left: 10px solid rgba($red, 0.75);
+    padding-left: 5px;
+}
+
+section h3 {
+    border-left: 10px solid rgba($red, 0.5);
+    padding-left: 5px;
+}
+
+main li {
+    line-height: 1.8;
+}

@@ -1,0 +1,75 @@
+header {
+
+    .header-title-row {
+        @include flex-layout-row;
+        align-items: center;
+        height: $title-height;
+        color: $text-med;
+    }
+
+    .logo {
+        @include flatten;
+        margin-left: rem(20);
+        box-shadow: 0 1px 6px 0 rgba(black, 0.25);
+
+        img {
+            display:block;
+        }
+    }
+
+    .header-title {
+        flex: 1;
+        padding: 0 rem(30);
+        .school-name, h1, h2 {
+            @include flatten;
+            font-family: $body-font;
+            color: $black;
+        }
+        .school-name {
+            text-transform: uppercase;
+        }
+    }
+
+    .mobile-title {
+        display: none;
+    }
+
+    @include mq($tabletPortrait){
+        
+
+    }
+
+    @include mq($phoneLandscape){
+        
+        .header-title-row {
+            width: 100%;
+            height: $title-height-mobile;
+        }
+
+        .logo {
+            width: rem(60);
+        }
+
+        .header-title {
+            padding: 0 rem(20);
+            h1, h2{
+                font-size: 1.3em;
+                font-family: $heading-font-narrow;
+            }
+            .school-name {
+                display: none;
+            }
+        }
+
+    }
+
+    @include mq($phonePortrait){
+        .header-title {
+            display: none;
+        }
+        .mobile-title {
+            display: block;
+        }
+    }
+
+}
