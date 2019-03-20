@@ -1,7 +1,7 @@
 // Main Navigation Styles
 .main-nav {
     // locally scoped variable
-    $height: rem(30);
+    $height: rem(40);
     $border: 1px solid white;
     
     background-color: $bcit-navy;
@@ -32,7 +32,7 @@
         color: $text-light;
         text-decoration: none;
         line-height: $height;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.5s ease;
         #{$link-hover-selector} {
             background-color: rgba($blue, 0.8);
             outline: none;

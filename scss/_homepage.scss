@@ -11,8 +11,8 @@
         @include flatten();
         position: absolute;
         display: block;
-        bottom: 20%;
-        left: 40%;
+        bottom: 40%;
+        left: 30%;
         right: 10%;
         line-height: 1.4;
         color: rgba($white, 0.9);
@@ -73,7 +73,7 @@
     color:white;
     text-decoration:none;
     text-transform: uppercase;
-    padding:5px 10px;
+    padding:5px 20px;
     border-radius:3px;
     font-family: $body-font;
     font-size:1.2em;

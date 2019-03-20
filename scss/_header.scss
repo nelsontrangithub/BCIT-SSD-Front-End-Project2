@@ -3,7 +3,7 @@ header {
     .header-title-row {
         @include flex-layout-row;
         align-items: center;
-        height: $title-height;
+        height: rem(110);
         color: $text-med;
     }
 
@@ -48,7 +48,7 @@ header {
         .header-title {
             padding: 0 rem(20);
             h1, h2{
-                font-size: 1.3em;
+                font-size: 1.2em;
                 font-family: $heading-font-narrow;
             }
             .school-name {

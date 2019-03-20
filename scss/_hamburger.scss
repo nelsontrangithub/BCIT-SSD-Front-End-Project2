@@ -17,7 +17,6 @@
         .hamburger-icon {
             color: $black;
             line-height: 1;
-            font-size: 3.4em;
         }
 
         .hamburger-text {
@@ -30,7 +29,7 @@
         }
 
         .hamburger:focus .hamburger-icon {
-            outline: 5px solid rgba($blue, 0.7);
+            outline: 5px solid rgba($blue, 0.5);
         }
 
     }
