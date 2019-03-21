@@ -77,8 +77,9 @@
     border-radius:3px;
     font-family: $body-font;
     font-size:1.2em;
+    font-weight: bold;
    }
 
    .btn-red {
-    @include button-bg(red);
+    @include button-bg($red);
  }   

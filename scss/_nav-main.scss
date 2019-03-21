@@ -19,6 +19,7 @@
 
     li {
         white-space: nowrap;
+                
     }
 
     a {
@@ -40,6 +41,9 @@
 
         @at-root nav li:last-child a {
             border-right: none;
+        }
+        &.current {
+            background-color: rgba($blue, 0.8);
         }
 
     }
