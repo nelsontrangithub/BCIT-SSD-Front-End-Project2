@@ -37,8 +37,36 @@
           }
 
           .resource-item {
-            padding: 0 20px 20px;
+            padding-top: 20px;
             display: none;
+
+            
+            section {
+                padding: 0.9375rem;
+                border: 1px dotted #ccc;
+                border-radius: 0.5rem;
+                a {
+                    text-decoration: none;
+                    -webkit-transition: all .2s ease;
+                    -moz-transition: all .2s ease;
+                    -ms-transition: all .2s ease;
+                    -o-transition: all .2s ease;
+                    transition: all .2s ease;
+                    img {
+                        display: inline;
+                        vertical-align: middle;
+                        margin-right: 0.25rem;
+                    }
+                    &:link {
+                        color: rgba($bcit-navy, 0.75);
+                    }
+                    &:hover, &:visited {
+                        color: rgba($red, 0.75);
+                    }
+                    
+                }
+            }
+
           }
 
           label {
@@ -81,7 +109,7 @@
             background-color: #ddd;
             color: #222;
             border-left: 10px solid rgba($red, 0.75);
-            padding-left: 5px;
+            padding-left: 10px;
           }
           input:checked + label:after {
             border-top: 8px solid transparent;

@@ -6,7 +6,7 @@ sass --watch scss:styles
 
 ## Authors
 - Nelson Tran A00696827
-- Lawrence Lu
+- Lawrence Lu A01083930
 
 ## Checklist
 - [x] Homepage
@@ -15,5 +15,5 @@ sass --watch scss:styles
 - [ ] Schedule
 - [ ] Students
 - [ ] Staff
-- [ ] E-Resources
+- [x] E-Resources
 - [ ] Contact
