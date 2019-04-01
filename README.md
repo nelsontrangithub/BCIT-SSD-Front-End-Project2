@@ -13,7 +13,7 @@ sass --watch scss:styles
 - [x] Overview
 - [x] Courses
 - [ ] Schedule
-- [ ] Students
-- [ ] Staff
+- [x] Students
+- [x] Staff
 - [ ] E-Resources
 - [ ] Contact

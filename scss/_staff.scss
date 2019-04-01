@@ -1,0 +1,25 @@
+.staff-container {
+    padding: rem(16);
+    background-color: $bg-lightgray;
+    section {
+        background-color: $white;
+        padding: rem(32);
+        margin-bottom: 0.9375rem;
+        border-collapse: collapse;
+        border-radius: 0.5rem;
+    }
+    a {
+        color: $red;
+    }
+}
+
+.staff-container h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #454545;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    margin-bottom: 0.9375rem;
+}
