@@ -1,0 +1,29 @@
+.schedule-container {
+    #loader {
+        /* source: https://stackoverflow.com/questions/1964839/how-can-i-create-a-please-wait-loading-animation-using-jquery */
+        display:    none;
+        position:   fixed;
+        z-index:    1000;
+        top:        0;
+        left:       0;
+        height:     100%;
+        width:      100%;
+        background: rgba( 255, 255, 255, .8 ) 
+                    url('../images/ajax-loader.gif') 
+                    50% 50% 
+                    no-repeat;
+    }
+    .month {
+        h2 {
+            text-align: center;
+        }
+        .doW-label-container {
+            list-style: none;
+            display: flex;
+            .doW-label {
+                flex: 1;
+                text-align: center;
+            }
+        }
+    }
+}
