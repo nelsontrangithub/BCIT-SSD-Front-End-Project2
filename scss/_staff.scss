@@ -8,6 +8,19 @@
         border-collapse: collapse;
         border-radius: 0.5rem;
     }
+    @media (max-width: $phone-wide) {
+        table,
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
+          display: block	;
+      
+          
+          
+        }
+    }
     .staff{
         @include flex-layout-row;
         .info{
