@@ -1,14 +1,18 @@
 .hamburger {
+<<<<<<< HEAD
     display: none;
+=======
+    display:none;
+>>>>>>> add contacts page, fixed hamburger
 
-    @include mq($phone){
+    @include mq($tablet-portait){
         display: block;
         border: none;
         background-color: transparent;
         padding: 0;
         margin: 0;
-        width: 37px;
-        height: 37px;
+        width: 50px;
+        height: 50px;
         margin-right: 1em;
         position: relative;
         top: -4px;
@@ -17,6 +21,7 @@
         .hamburger-icon {
             color: $black;
             line-height: 1;
+            font-size: 4.2em;
         }
 
         .hamburger-text {
