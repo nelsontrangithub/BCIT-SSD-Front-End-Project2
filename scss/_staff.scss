@@ -8,6 +8,13 @@
         border-collapse: collapse;
         border-radius: 0.5rem;
     }
+    .staff{
+        @include flex-layout-row;
+        .info{
+            @include row-item;
+            text-align: left;
+        }
+    }
     a {
         color: $red;
     }
