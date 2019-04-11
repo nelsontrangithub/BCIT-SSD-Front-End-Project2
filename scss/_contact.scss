@@ -11,6 +11,7 @@
     .information{
         @include flex-layout-row;
         .info{
+            @include row-item;
             text-align: left;
         }
     }

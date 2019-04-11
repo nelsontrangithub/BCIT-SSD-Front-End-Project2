@@ -1,9 +1,6 @@
 .hamburger {
-<<<<<<< HEAD
-    display:none;
-=======
+    
     display: none;
->>>>>>> electronic_resources
 
     @include mq($tablet-portait){
         display: block;
@@ -38,5 +35,4 @@
         }
 
     }
-
 }

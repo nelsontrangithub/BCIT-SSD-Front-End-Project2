@@ -24,6 +24,21 @@
     }
 }
 
+@mixin row-item {
+    width: colWidth(2);
+    padding: 20px;
+    @include first-last-el-no-margin;
+    border: 1px dotted #ccc;
+    border-radius: rem(20);
+    @include mq($phoneLandscape){
+        width: $one-col;
+        margin-bottom: 8%;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
 // Mixin for clearing out
 // margins and padding and
 // setting the line-height to 1 
