@@ -13,13 +13,13 @@ sass --watch scss:styles
 - [x] Overview
 - [x] Courses
 - [ ] Schedule
-<<<<<<< HEAD
 - [x] Students
 - [x] Staff
-- [ ] E-Resources
-=======
-- [ ] Students
-- [ ] Staff
 - [x] E-Resources
+<<<<<<< HEAD
 >>>>>>> updated e-resources pages
 - [ ] Contact
+=======
+- [x] E-Resources
+- [x] Contact
+>>>>>>> update readme
