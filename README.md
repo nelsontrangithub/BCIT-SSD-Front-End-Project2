@@ -16,6 +16,4 @@ sass --watch scss:styles
 - [x] Students
 - [x] Staff
 - [x] E-Resources
-- [ ] Contact
-- [x] E-Resources
 - [x] Contact

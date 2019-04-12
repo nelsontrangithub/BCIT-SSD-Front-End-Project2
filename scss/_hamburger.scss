@@ -1,14 +1,5 @@
-.hamburger {
-<<<<<<< HEAD
-<<<<<<< HEAD
+.hamburger {    
     display: none;
-=======
-    display:none;
->>>>>>> add contacts page, fixed hamburger
-=======
-    
-    display: none;
->>>>>>> fixing contact form
 
     @include mq($tablet-portait){
         display: block;
