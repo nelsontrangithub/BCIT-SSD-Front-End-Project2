@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+    //ajax call
     $.ajax({
         type: "GET",
         url: 'https://api.jsonbin.io/b/5cad1c3b85438b0272f33a7c/7',
@@ -15,6 +16,7 @@ $( document ).ready(function() {
           }
     });
 
+    //build the calendar
     function buildCalendar(data) {
         const monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"];
@@ -64,6 +66,7 @@ $( document ).ready(function() {
             
             }
 
+            //build the day node
             let dayItem = $('<div>', {class: 'day'});
             let dateString = currentMonthTxt + ' ' + date.getDate() + ', ' + date.getFullYear();
             let dayOfWeek = dayNamesFull[date.getDay()-1];
@@ -86,6 +89,7 @@ $( document ).ready(function() {
 
     }
 
+    //Button event handlers
     $("#today-button").click(function() {
 
         $('.current').find("input[type='checkbox']").prop('checked', true);
@@ -124,6 +128,12 @@ $( document ).ready(function() {
             $(this).text(String.fromCharCode(9776) + " List View");
         }
     });
+
+    $('.to-top-button').on('click', function(){
+        $([document.documentElement, document.body]).animate({
+            scrollTop: 0
+        }, 2000);
+		});
 
 
     $(document).on("click", 'h2', function(){
