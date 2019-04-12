@@ -12,9 +12,8 @@ sass --watch scss:styles
 - [x] Homepage
 - [x] Overview
 - [x] Courses
-- [ ] Schedule
+- [x] Schedule
 - [x] Students
 - [x] Staff
-- [x] E-Resources
 - [x] E-Resources
 - [x] Contact
