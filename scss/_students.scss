@@ -1,3 +1,42 @@
+.student-container {
+  padding: rem(16);
+  background-color: $bg-lightgray;
+  section {
+      background-color: $white;
+      padding: rem(32);
+      margin-bottom: 0.9375rem;
+      border-collapse: collapse;
+      border-radius: 0.5rem;
+  }
+  @media (max-width: $tablet-portait) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block	;
+  
+      
+      
+    }
+}
+  a {
+      color: $red;
+  }
+}
+
+.student-container h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #454545;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  margin-bottom: 0.9375rem;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -24,6 +63,8 @@ th {
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
+  background-color: $bcit-navy;
+  color: $white;
 }
 
 .table tbody + tbody {

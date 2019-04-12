@@ -1,8 +1,11 @@
 # BCIT SSD FRONT-END PROJECT #2
 
 ## Installation
+* Git clone
+* sass --watch scss:styles
 
-sass --watch scss:styles
+### OR
+* unzip build.zip in build folder
 
 ## Authors
 - Nelson Tran A00696827
