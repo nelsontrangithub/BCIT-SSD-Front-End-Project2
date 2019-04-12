@@ -1,5 +1,7 @@
 # BCIT SSD FRONT-END PROJECT #2
 
+[Live Demo](https://bcit-ssd.azurewebsites.net/)
+
 ## Installation
 * Git clone
 * sass --watch scss:styles
